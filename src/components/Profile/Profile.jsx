@@ -11,10 +11,6 @@ export const Profile = ({ username, tag, location, stats, avatar }) => {
             <p className="tag">@{tag}</p>
             <p className="location">{location}</p>
         </div>
-        <a className='bank-link' title="Check your transactions" href="" >
-          <img className='bank-image'
-            src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Circle-icons-creditcard.svg" alt="bank card" />
-        </a>
           <ul className="stats">
             <li className='stats-item'>
               <span className="label">Followers</span>
