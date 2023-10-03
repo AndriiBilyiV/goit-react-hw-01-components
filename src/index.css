@@ -1,6 +1,22 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+
+/* palette 0022  https://incolor.online/palettes/pal-0022/*/
+:root {
+  --dark: #313f3e;
+  --light-brown: #b8947f;
+  --beige: #e8b37b;
+  --blue: #559698;
+  --light-blue: #91cac8;
+  --block-shadow: #00000029 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+ul,
+h2 {
+  padding: 0;
+  margin: 0;
+}
 
 body {
+  background-color: white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,4 +28,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#root {
+  max-width: 1200px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main {
+  display: flex;
+}
+.conteiner {
+  width: 100%;
 }

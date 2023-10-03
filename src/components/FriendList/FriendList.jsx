@@ -1,9 +1,11 @@
-const FriendListItem = ({ avatar, name, isOnline}) => {
+import friendListStyles from './friendListStyles.css';
+
+const FriendListItem = ({ avatar, name, isOnline }) => {
     return (
        <li className="item">
-         <span className={isOnline ? "online" : "offline"}></span>
-         <img className="avatar" src={avatar} alt="User avatar" width="48" />
-            <p className="name">{name}</p>
+         <span className={isOnline ? "status online" : "status offline"}></span>
+         <img className="avatar" src={avatar} alt="User avatar" width="68" />
+            <p className="friend-name">{name}</p>
        </li> 
     )
 }

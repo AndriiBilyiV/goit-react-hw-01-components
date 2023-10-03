@@ -1,0 +1,14 @@
+.transactionHistory {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.headRow {
+  padding: 16px 0 16px;
+  border: 1px solid #2a2a2a;
+  background-color: var(--blue);
+}
+.singleRow {
+  border: 1px solid #2a2a2a;
+  background-color: var(--light-blue);
+}
