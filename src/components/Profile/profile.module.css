@@ -9,21 +9,21 @@
   position: relative;
   margin-right: 80px;
 }
-.profile .avatar {
+.avatar {
   max-width: 360px;
   border: 12px solid var(--beige);
   border-radius: 50%;
   background-color: white;
 }
-.profile .name {
+.name {
   font-size: 48px;
   margin-bottom: 12px;
 }
-.profile .tag {
+.tag {
   color: var(--blue);
   font-weight: 900;
 }
-.profile .location {
+.location {
   color: var(--dark);
 }
 .stats {
@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-between;
 }
-.stats-item {
+.statsItem {
   padding: 20px 0;
   text-align: center;
   flex-basis: 30%;
